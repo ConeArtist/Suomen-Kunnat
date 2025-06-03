@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="635"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/"
+   sodipodi:docname="Eckerö.vaakuna.svg"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="316.60163"
+     inkscape:cy="302.31928"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1273"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     height="635px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Eckerön vaakuna, Eckerö vapen, Coat of arms of Eckerö</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Hippophaë, Wikipedia</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Eckerö</rdf:li>
+            <rdf:li>vaakuna</rdf:li>
+            <rdf:li>vapen</rdf:li>
+            <rdf:li>coat of arms</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:date>2006-09-16</dc:date>
+        <dc:identifier>http://commons.wikimedia.org/wiki/Image:Eckerö.vaakuna.svg</dc:identifier>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#dfdfdf;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 0.5,0.5 L 499.5,0.5 L 499.5,440 C 499.5,590 275,570 250,634.5 C 225,570 0.5,590 0.5,440 L 0.5,0.5 z "
+       id="path3671"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:red;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 245,480 L 245,50 C 250,45 255,45 260,50 L 260,480 L 245,480 z "
+       id="path9878"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:red;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 32,406 C 182.00231,479.84856 328.68381,478.41251 474,421 C 447.13283,580.29865 66.540359,579.29072 32,406 z "
+       id="path7215"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 36.5,423 C 207.05944,494.52252 330.06183,484.28989 474.5,433 L 468.5,449 C 314.89821,507.96845 184.4364,494.95839 44.5,439 L 36.5,423 z "
+       id="path7217"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 57.5,459 C 192.5,512.05007 312.5,518.11782 458.5,466 L 439.5,486 C 302.16667,530.66667 201.83333,529.33333 81.5,482 L 57.5,459 z "
+       id="path7219"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:red;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 25,404 C 24.977809,394.08332 51.686297,402.62266 51.5,410.5 C 51.389121,415.18837 40.490291,409.50824 40.5,414.5 C 40.541721,437.95053 107.69582,531.86955 260.5,533 C 430.75848,534.25958 465.8126,445.2771 467,429.5 C 467.38705,424.3572 456.34504,432.49711 456,425.5 C 455.69566,419.32821 478.73276,412.69572 479,422.5 C 479.68611,447.67133 444.97002,543.42445 261.5,544 C 108.21853,544.48348 25.119656,456.47234 25,404 z "
+       id="path4558"
+       sodipodi:nodetypes="cssssssss" />
+    <path
+       style="fill:red;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 190,90 C 253.33333,84.098984 312.66667,68.371053 376,52 C 247.89284,212.50243 268.847,337.47965 402,434 C 312,433.93423 222,435.39978 132,440.66667 C 80.998861,348.90951 66.421566,245.24064 190,90 z "
+       id="path9876"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 147.33333,360.66667 C 154.66731,389.87446 173.48362,413.863 192.26667,437.86667 L 189.33333,437.86667 C 159.05077,399.75859 151.26845,378.75069 147.33333,360.66667 z "
+       id="path11650"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 192.66667,344 C 203.28868,371.15559 229.91132,405.77774 253.33333,435.86667 L 249.2,436 C 221.58069,398.18209 200.18471,367.73324 192.66667,344 z "
+       id="path11654"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 229.33333,265 C 233.58456,334.99951 277.1309,380.66796 327.2,434.13333 L 321.86667,434.26667 C 271.80256,381.0827 232.49084,331.36062 229.33333,265 z "
+       id="path11656"
+       sodipodi:nodetypes="cccc" />
+  </g>
+</svg>

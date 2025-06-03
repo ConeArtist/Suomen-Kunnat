@@ -15,13 +15,15 @@ function startGame() {
     selectedProvinces = Array.from(document.querySelectorAll('#province-selection input[type="checkbox"]:checked'))
         .map(cb => cb.value);
 
-    document.getElementById('province-selection').style.display = 'none';
+    document.getElementById('start-modal').style.display = 'none';
 
     map = L.map('map').setView([64.5, 26], 6);
 
-    L.tileLayer('https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors'
-      }).addTo(map);
+    L.tileLayer('https://basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 18
+    }).addTo(map);
 
     fetch('kunta1000k_2025_with_neighbors_and_province.geojson')
         .then(res => res.json())
@@ -32,10 +34,8 @@ function startGame() {
 
             geojsonLayer = L.geoJSON(allFeatures, {
                 style: {
-                    color: "#fff",
-                    weight: 1,
-                    fillOpacity: 1,
-                    fillColor: "#002c5f"
+                    color: "#0b3a61",
+                    weight: 1
                 },
                 onEachFeature: (feature, layer) => {
                     layer.on('click', () => checkAnswer(feature, layer));
@@ -53,14 +53,18 @@ function nextQuestion() {
         return;
     }
 
+    // piilotetaan aiemmat vihjeet
+    document.getElementById('hint1').textContent = '';
+    document.getElementById('result').textContent = '';
+
     currentFeature = allFeatures[Math.floor(Math.random() * allFeatures.length)];
     attemptCount = 1;
 
     const coatOfArmsImage = document.getElementById('vaakuna');
     const coatOfArmsName = currentFeature.properties.nimi.toLowerCase().replace(/ /g, '-').replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/å/g, 'a');
-    coatOfArmsImage.src = `vaakunat/${coatOfArmsName}.gif`;
+    coatOfArmsImage.src = `vaakunat-svg/${coatOfArmsName}.svg`;
 
-    document.getElementById('question').textContent = `Missä on kunta: ${currentFeature.properties.nimi}?`;
+    document.getElementById('question').textContent = `${currentFeature.properties.nimi}`;
     document.getElementById('result').textContent = '';
 }
 
@@ -100,12 +104,39 @@ function checkAnswer(feature, layer) {
 
         if (attemptCount === 1) {
             const neighbors = currentFeature.properties.neighbors?.join(', ') || 'ei tietoa';
-            document.getElementById('hint').textContent = `Naapurikunnat: ${neighbors}`;
-            document.getElementById('result').textContent = 'Yritä uudelleen.';
+            document.getElementById('hint1').textContent = `Naapurikunnat: ${neighbors}`;
+            //document.getElementById('result').textContent = 'Yritä uudelleen.';
             attemptCount++;
         } else if (attemptCount === 2) {
-            document.getElementById('result').textContent = `Väärin taas! Tämä oli ${feature.properties.nimi}. +0 pistettä`;
-            layer.setStyle({ fillColor: 'blue', fillOpacity: 0.5 }); // Näytä oikea sijainti
+            document.getElementById('result').textContent = `Väärin taas! Tämä oli ${currentFeature.properties.nimi}. +0 pistettä`;
+
+            geojsonLayer.eachLayer(l => {
+                if (l.feature.properties.nimi === currentFeature.properties.nimi) {
+                    // Zoomaa oikeaan kohtaan
+                    map.fitBounds(l.getBounds(), {
+                        maxZoom: 9, // voit säätää tätä
+                        animate: true,
+                        duration: 1
+                    });
+
+                    // Lisää siirtymä
+                    l.getElement().style.transition = 'fill 0.3s ease, fill-opacity 0.3s ease';
+
+                    // Sulava välkkyminen
+                    let i = 0;
+                    const blink = () => {
+                        if (i >= 6) {
+                            l.setStyle({ fillOpacity: 0 }); // piilota lopuksi
+                            return;
+                        }
+                        l.setStyle({ fillColor: i % 2 === 0 ? 'green' : '#0b3a61', fillOpacity: 1 });
+                        i++;
+                        setTimeout(blink, 250);
+                    };
+                    blink();
+                }
+            });
+
             removeCurrentFeature();
             setTimeout(nextQuestion, 2500);
         }
@@ -129,3 +160,13 @@ function updateScoreDisplay() {
     }
     scoreDisplay.textContent = `Pisteet: ${score}`;
 }
+
+function selectAllProvinces() {
+    document.querySelectorAll('#province-selection input[type="checkbox"]').forEach(cb => cb.checked = true);
+}
+
+function deselectAllProvinces() {
+    document.querySelectorAll('#province-selection input[type="checkbox"]').forEach(cb => cb.checked = false);
+}
+
+

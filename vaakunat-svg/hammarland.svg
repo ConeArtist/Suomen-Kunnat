@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="667"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase=""
+   sodipodi:docname="Hammarland.vaakuna.svg"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="564"
+     inkscape:cy="340.44654"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1218"
+     inkscape:window-height="942"
+     inkscape:window-x="28"
+     inkscape:window-y="20"
+     height="667px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Hammarlandin vaakuna, Hammarlands vapen, Coat of arms of Hammarland</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Hippophaë, Wikipedia</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Hammarland</rdf:li>
+            <rdf:li>vaakuna</rdf:li>
+            <rdf:li>vapen</rdf:li>
+            <rdf:li>coat of arms</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:date>2007-07-22</dc:date>
+        <dc:identifier>http://commons.wikimedia.org/wiki/Image:Hammarland.vaakuna.svg</dc:identifier>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#bf9f4f;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 0.5,0.5 L 499.5,0.5 L 499.5,380 C 499.5,475 365,580 250,666.5 C 135,580 0.5,475 0.5,380 L 0.5,0.5 z "
+       id="path9059"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       id="path9061"
+       d="M 77.1,521.2 C 105,500 140,500 165,525 C 210,460 290,460 335,525 C 360,500 395,500 422.9,521.2 C 390,554 365,580 250,666.5 C 135,580 110,554 77.1,521.2 z "
+       style="fill:red;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       id="path9063"
+       d="M 0.5,0.5 L 499.5,0.5 L 499.5,380 C 499.5,403.75 491,425.1 483.6,440 L 16.4,440 C 9,425.1 0.5,403.75 0.5,380 L 0.5,0.5 z "
+       style="fill:#0000bf;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#bf9f4f;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 245,6 C 248,4 252,4 255,6 L 255,75 L 245,75 L 245,6 z "
+       id="path11734"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#bf9f4f;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 165,67 L 335,67 C 310,110 335,190 380,275 L 120,275 C 165,190 190,110 165,67 z "
+       id="path11738"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#bf9f4f;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 160,65 L 340,65 L 340,70 L 160,70 L 160,65 z "
+       id="path11730" />
+    <path
+       style="fill:#bf9f4f;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 255,40.75 L 255,22.25 C 263,15.833333 272.12517,10.705016 279.125,11.0625 C 307.25528,12.524658 312,24.916667 336.5,25.25 C 349.25,24.833333 354.75,18.791973 366.3125,18.8125 C 379.05772,18.833351 388.5,20.416667 401.5,22.75 C 389,24.916667 385,24.583333 372.5,27.25 C 385.16667,33.583333 388.83333,36.916667 399.5,46.25 C 380.16666,39 379.32406,36.410442 366.98608,36.240663 C 354.64811,36.070884 348.81962,42.495327 336.5,42.75 C 314.37344,43.207403 302.38663,29.406288 278.75,29 C 270.664,28.86101 263.58333,33 255,40.75 z "
+       id="path11736"
+       sodipodi:nodetypes="ccscscccsssc" />
+    <path
+       style="fill:#bf9f4f;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 250,311 C 272.22029,329.76717 300.6202,354.87952 320.90206,337.80512 C 319.04248,337.33035 314.74577,338.59915 314.76491,335.69061 C 314.7786,333.41032 327.06608,331.00798 325.4,333.8 C 303.28775,369.30187 274.4227,401.57206 250,402 L 250,311 z "
+       id="path13659"
+       sodipodi:nodetypes="ccsccc" />
+    <path
+       style="fill:#bf9f4f;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 255,364 C 278,365 299,357 322,338 M 255,387 C 275,383 297,366 322,338 M 255,342 C 286,350.8819 312,349 322,338"
+       id="path14546"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       sodipodi:nodetypes="ccsccc"
+       id="path15433"
+       d="M 251.00031,311 C 228.78002,329.76717 200.38011,354.87952 180.09825,337.80512 C 181.95783,337.33035 186.25454,338.59915 186.2354,335.69061 C 186.22171,333.41032 173.93423,331.00798 175.60031,333.8 C 197.71256,369.30187 226.57761,401.57206 251.00031,402 L 251.00031,311 z "
+       style="fill:#bf9f4f;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       id="path15435"
+       d="M 246.00031,364 C 223.00031,365 202.00031,357 179.00031,338 M 246.00031,387 C 226.00031,383 204.00031,366 179.00031,338 M 246.00031,342 C 215.00031,350.8819 189.00031,349 179.00031,338"
+       style="fill:#bf9f4f;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#bf9f4f;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 245,310 L 255,310 C 270,340 255,373 255,405 L 245,405 C 245,373 230,340 245,310 z "
+       id="path12766"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#bf9f4f;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 255,308 C 255,293 275,274 270,270 C 265,266 261,272 257,281 C 257,266 257,260 250,260 C 243,260 243,266 243,281 C 239,272 235,266 230,270 C 225,274 245,293 245,308 L 255,308 z "
+       id="path12768"
+       sodipodi:nodetypes="cscccscc" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1.00000024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 245,308.00007 L 255,308.00007 L 255,310.00007 L 245,310.00007 L 245,308.00007 z "
+       id="path12772" />
+  </g>
+</svg>

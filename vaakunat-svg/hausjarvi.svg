@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   sodipodi:docname="svg.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:version="0.32"
+   id="svg2"
+   height="565"
+   width="500">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     height="565px"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="200.12317"
+     inkscape:cx="278.36878"
+     inkscape:zoom="0.5"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Hausjärven vaakuna, Hausjärvi vapen, Coat of arms of Hausjärvi</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Hippophaê, Wikipedia</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Hausjärvi</rdf:li>
+            <rdf:li>vaakuna</rdf:li>
+            <rdf:li>vapen</rdf:li>
+            <rdf:li>coat of arms</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:date>16.9.2006</dc:date>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(1.2714666,0.74989015)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       sodipodi:nodetypes="cccccc"
+       id="path8413"
+       d="M -1.2714666,17.678111 C 163.55819,-6.8925572 333.89887,-6.8925572 498.72853,17.678111 L 474.17942,364.1747 c -10.02004,125.36055 -125.2505,200.07544 -225.45089,200.07544 -100.2004,0 -215.430858,-74.71489 -225.450899,-200.07544 z"
+       style="fill:#ee1c25;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 447.7165,12.948486 248.72853,214.19169 v 53.79769 L 496.96603,19.424134 C 480.54952,16.9335 464.13301,14.691929 447.7165,12.948486 Z M 248.72853,267.98938 v 85.6778 l 152.2258,150.43427 c 14.1148,-12.23926 27.65111,-27.6023 38.90176,-44.73217 z m 0,0 L 0.49103613,19.424134 7.2360288,114.56634 174.10804,283.92944 37.801281,420.66522 c 4.954633,13.53987 11.818923,26.55281 19.799692,38.70406 z"
+       style="fill:#ffffff;fill-opacity:0.975807;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3846" />
+    <path
+       d="M 49.740559,12.948486 C 33.324052,14.691929 16.907544,16.9335 0.49103613,19.424134 L 248.72853,267.98938 V 214.19169 Z M 248.72853,267.98938 439.85609,459.36928 c 7.98077,-12.15125 14.84506,-25.16419 19.79969,-38.70406 l -136.30676,-136.73578 166.87201,-169.3631 6.745,-95.142206 z m 0,0 -191.127557,191.3799 c 11.250648,17.12987 24.786956,32.49291 38.90176,44.73217 L 248.72853,353.66718 Z"
+       style="fill:#8d8d8d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path901" />
+    <path
+       sodipodi:nodetypes="ccccccccccccccc"
+       style="fill:#8d8d8d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 250.71841,169.36028 -3.97976,-1.99251 -15.91904,-47.82016 -49.74699,9.96254 -3.97976,-1.99251 52.23434,-47.571108 19.40133,-71.9793137 1.24368,0.1245317 20.645,51.680649 45.76723,-11.955041 3.97976,0.124531 -33.33048,40.59733 34.82289,39.850141 -51.2394,-8.84175 z"
+       id="path920" />
+    <path
+       id="path9158"
+       d="m 248.72853,167.36777 -19.8988,-49.81267 -49.74699,9.96254 34.8229,-39.850143 -34.8229,-39.850139 49.74699,9.962534 19.8988,-49.8126737 19.8988,49.8126737 49.74699,-9.962534 -34.82289,39.850139 34.82289,39.850143 -49.74699,-9.96254 z"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccccccccccccccccccc"
+       d="m 248.72853,87.667497 -69.64579,-39.850139 47.85756,9.584149 21.78823,30.26599 -18.76234,-32.73251 18.76234,-46.9677687 V 87.667497 m 19.8988,29.887603 -19.8988,-26.453372 v 76.266042 l -19.8988,-49.81267 39.7976,-59.775208 49.74699,-9.962534 -139.29158,79.700282 34.8229,-39.850143 h 69.64579 l 34.82289,39.850143 -65.8899,-37.701088 z"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;stop-color:#000000;stop-opacity:1"
+       id="path850" />
+    <path
+       sodipodi:nodetypes="ccccccccccccccc"
+       d="M 44.542387,13.538065 C 29.858593,15.189064 15.174829,17.196379 0.49103613,19.424134 L 6.8221182,108.72113 181.71624,283.94545 39.351988,424.71833 c 11.773117,29.76082 32.252072,56.96735 54.300009,76.83412 L 248.72853,346.20932 403.80506,501.55245 c 22.04794,-19.86677 42.52689,-47.0733 54.30002,-76.83412 L 315.74082,283.94545 490.63495,108.72113 496.96603,19.424134 c -14.68379,-2.227755 -29.36756,-4.23507 -44.05135,-5.886069 L 248.72853,221.71182 Z"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path868" />
+  </g>
+</svg>

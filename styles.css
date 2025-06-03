@@ -7,36 +7,48 @@
 html, body {
     height: 100%;
     font-family: 'Segoe UI', sans-serif;
+    background-color: #0b3a61;
+    color: #ffffff;
+}
+
+.ohje {
+    text-align: center;
 }
 
 .container {
     display: flex;
+    flex-direction: row;
     height: 100vh;
 }
 
 /* Vasemman reunan palkki */
 .sidebar {
     width: 300px;
-    background-color: #ffffff;
     border-right: 2px solid #ccc;
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.game-info {
-    padding: 20px;
+    color: #f4b731;
+    background: #002C60;
+    background: radial-gradient(circle, rgba(0, 44, 96, 1) 0%, rgba(0, 55, 107, 1) 50%, rgba(0, 44, 96, 1) 100%);
 }
 
 .sidebar h1 {
-    font-size: 24px;
-    color: #333;
+    font-size: 26px;
+    color: #f4b731;
+    text-align: center;
 }
 
-.hint, .result {
+.hint1,
+.result {
     font-size: 18px;
     font-weight: bold;
-    color: #222;
+    color: #f4b731;
+}
+
+.game-info {
+    flex-grow: 1;
+    padding: 20px;
 }
 
 /* Kartta oikealla */
@@ -50,17 +62,202 @@ html, body {
     height: 100%;
 }
 
-/* Nappi */
+/* Perusnapit */
 button {
-    padding: 10px;
-    background-color: #2e7d32;
-    color: white;
+    padding: 12px;
+    background-color: #f4b731;
+    color: #0b3a61;
     border: none;
     font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
     cursor: pointer;
-    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.2s ease;
 }
 
 button:hover {
-    background-color: #1b5e20;
+    background-color: #d17e12;
+    color: white;
+}
+
+/* Valitse kaikki / Poista kaikki napit */
+.checkbox-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.checkbox-controls button {
+    flex: 1;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #f4b731;
+    color: #0b3a61;
+}
+
+.checkbox-controls button:hover {
+    background-color: #d17e12;
+    color: white;
+}
+
+/* Vaakuna ja kysymys vierekkäin */
+.guestion-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: #f4b731 4px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.game-image {
+    width: 30%;
+    max-width: 150px;
+    height: auto;
+}
+
+#question {
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Piilota oletus-checkbox */
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+/* Kustomoitu valintaruutu */
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+  position: relative;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  user-select: none; /* Estää tekstin valinnan */
+}
+
+/* Tyylitelty ruutu */
+.custom-checkbox .checkmark {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #002c5f;
+  border-radius: 4px;
+  background-color: white;
+  position: relative;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Valittuna: sininen tausta ja ✓ */
+.custom-checkbox input:checked + .checkmark {
+  background-color: #002c5f;
+  border-color: #002c5f;
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+
+/* Modaali */
+.modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(11, 58, 97, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-logo {
+    top: 10px;
+    max-width: 150px;
+    position: fixed;
+    left: calc(50% - 75px);
+}
+
+.modal-content {
+    background-color: #ffffff;
+    color: #222;
+    padding: 15px 15px;
+    max-width: 95%;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Kaksi saraketta maakunnille */
+#province-selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 10px;
+    margin: 20px 0;
+}
+
+#province-selection label {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Responsiivisuus */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .custom-checkbox {
+        font-size: 5px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .game-image {
+        width: 100%;
+        max-width: 60px;
+        height: auto;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid #ccc;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sidebar h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .hint,
+    .result {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 18px;
+    }
 }

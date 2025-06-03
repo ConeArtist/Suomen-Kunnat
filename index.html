@@ -13,38 +13,128 @@
 </head>
 
 <body>
-    <div class="container">
-        <div id="province-selection" style="margin-bottom: 20px;">
-            <h3>Valitse maakunnat:</h3>
-            <label><input type="checkbox" value="Ahvenanmaa" checked>Ahvenanmaa</label><br>
-            <label><input type="checkbox" value="Etelä-Karjala" checked>Etelä-Karjala</label><br>
-            <label><input type="checkbox" value="Etelä-Pohjanmaa" checked>Etelä-Pohjanmaa</label><br>
-            <label><input type="checkbox" value="Etelä-Savo" checked>Etelä-Savo</label><br>
-            <label><input type="checkbox" value="Kainuu" checked>Kainuu</label><br>
-            <label><input type="checkbox" value="Kanta-Häme" checked>Kanta-Häme</label><br>
-            <label><input type="checkbox" value="Keski-Pohjanmaa" checked>Keski-Pohjanmaa</label><br>
-            <label><input type="checkbox" value="Keski-Suomi" checked>Keski-Suomi</label><br>
-            <label><input type="checkbox" value="Kymenlaakso" checked>Kymenlaakso</label><br>
-            <label><input type="checkbox" value="Lappi" checked>Lappi</label><br>
-            <label><input type="checkbox" value="Pirkanmaa" checked>Pirkanmaa</label><br>
-            <label><input type="checkbox" value="Pohjanmaa" checked>Pohjanmaa</label><br>
-            <label><input type="checkbox" value="Pohjois-Karjala" checked>Pohjois-Karjala</label><br>
-            <label><input type="checkbox" value="Pohjois-Pohjanmaa" checked>Pohjois-Pohjanmaa</label><br>
-            <label><input type="checkbox" value="Pohjois-Savo" checked>Pohjois-Savo</label><br>
-            <label><input type="checkbox" value="Päijät-Häme" checked>Päijät-Häme</label><br>
-            <label><input type="checkbox" value="Satakunta" checked>Satakunta</label><br>
-            <label><input type="checkbox" value="Uusimaa" checked>Uusimaa</label><br>
-            <label><input type="checkbox" value="Varsinais-Suomi" checked>Varsinais-Suomi</label><br>
+    <div id="start-modal" class="modal">
+        <div class="modal-content">
+            <img class="modal-logo" src="/images/pelilogo.png" alt="Kuntapeli Logo">
+            <h2>Valitse maakunnat</h2>
+            <div id="province-selection">
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Ahvenanmaa" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Ahvenanmaa</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Etelä-Karjala" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Etelä-Karjala</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Etelä-Pohjanmaa" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Etelä-Pohjanmaa</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Etelä-Savo" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Etelä-Savo</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Kainuu" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Kainuu</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Kanta-Häme" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Kanta-Häme</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Keski-Pohjanmaa" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Keski-Pohjanmaa</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Keski-Suomi" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Keski-Suomi</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Kymenlaakso" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Kymenlaakso</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Lappi" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Lappi</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Pirkanmaa" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Pirkanmaa</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Pohjanmaa" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Pohjanmaa</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Pohjois-Karjala" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Pohjois-Karjala</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Pohjois-Pohjanmaa" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Pohjois-Pohjanmaa</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Pohjois-Savo" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Pohjois-Savo</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Päijät-Häme" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Päijät-Häme</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Satakunta" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Satakunta</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Uusimaa" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Uusimaa</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" value="Varsinais-Suomi" checked>
+                    <span class="checkmark"></span>
+                    <span class="checkbox-label">Varsinais-Suomi</span>
+                </label>
+            </div>
+            <div class="checkbox-controls">
+                <button type="button" onclick="selectAllProvinces()">Valitse kaikki</button>
+                <button type="button" onclick="deselectAllProvinces()">Poista kaikki</button>
+            </div>
+
             <button id="start-game">Aloita peli</button>
         </div>
+    </div>
+
+
+    <div class="container">
         <aside class="sidebar">
             <img src="/images/pelilogo.png" alt="Kuntapeli Logo" class="logo">
             <div class="game-info">
-                <img id="vaakuna" src="/vaakunat/aanekoski.gif" alt="Kuva" class="game-image">
-                <div id="question" class="hint">Kysymys ilmestyy tähän</div>
-                <div id="hint" class="hint">Vihje ilmestyy tähän</div>
-                <div id="result" class="result">Tulos näkyy tässä</div>
-                <button onclick="location.reload()">Aloita alusta</button>
+                <div class="guestion-box">
+                    <img id="vaakuna" src="/vaakunat/aanekoski.gif" alt="Kuva" class="game-image">
+                    <div id="question" class="hint1"></div>
+                </div>
+                <div id="hint1" class="hint1"></div>
+                <div id="result" class="result"></div>
+                <!--<button onclick="location.reload()">Aloita alusta</button>-->
             </div>
         </aside>
         <main class="map-container">
