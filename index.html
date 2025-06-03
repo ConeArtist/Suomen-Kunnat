@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suomen Kunnat</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <script src="https://unpkg.com/@turf/turf/turf.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="province-selection" style="margin-bottom: 20px;">
+            <h3>Valitse maakunnat:</h3>
+            <label><input type="checkbox" value="Ahvenanmaa" checked>Ahvenanmaa</label><br>
+            <label><input type="checkbox" value="Etelä-Karjala" checked>Etelä-Karjala</label><br>
+            <label><input type="checkbox" value="Etelä-Pohjanmaa" checked>Etelä-Pohjanmaa</label><br>
+            <label><input type="checkbox" value="Etelä-Savo" checked>Etelä-Savo</label><br>
+            <label><input type="checkbox" value="Kainuu" checked>Kainuu</label><br>
+            <label><input type="checkbox" value="Kanta-Häme" checked>Kanta-Häme</label><br>
+            <label><input type="checkbox" value="Keski-Pohjanmaa" checked>Keski-Pohjanmaa</label><br>
+            <label><input type="checkbox" value="Keski-Suomi" checked>Keski-Suomi</label><br>
+            <label><input type="checkbox" value="Kymenlaakso" checked>Kymenlaakso</label><br>
+            <label><input type="checkbox" value="Lappi" checked>Lappi</label><br>
+            <label><input type="checkbox" value="Pirkanmaa" checked>Pirkanmaa</label><br>
+            <label><input type="checkbox" value="Pohjanmaa" checked>Pohjanmaa</label><br>
+            <label><input type="checkbox" value="Pohjois-Karjala" checked>Pohjois-Karjala</label><br>
+            <label><input type="checkbox" value="Pohjois-Pohjanmaa" checked>Pohjois-Pohjanmaa</label><br>
+            <label><input type="checkbox" value="Pohjois-Savo" checked>Pohjois-Savo</label><br>
+            <label><input type="checkbox" value="Päijät-Häme" checked>Päijät-Häme</label><br>
+            <label><input type="checkbox" value="Satakunta" checked>Satakunta</label><br>
+            <label><input type="checkbox" value="Uusimaa" checked>Uusimaa</label><br>
+            <label><input type="checkbox" value="Varsinais-Suomi" checked>Varsinais-Suomi</label><br>
+            <button id="start-game">Aloita peli</button>
+        </div>
+        <aside class="sidebar">
+            <img src="images/pelilogo.png" alt="Kuntapeli Logo" class="logo">
+            <div class="game-info">
+                <img id="vaakuna" src="vaakunat/aanekoski.gif" alt="Kuva" class="game-image">
+                <div id="question" class="hint">Kysymys ilmestyy tähän</div>
+                <div id="hint" class="hint">Vihje ilmestyy tähän</div>
+                <div id="result" class="result">Tulos näkyy tässä</div>
+                <button onclick="location.reload()">Aloita alusta</button>
+            </div>
+        </aside>
+        <main class="map-container">
+            <div id="map"></div>
+        </main>
+    </div>
+</body>
+
+</html>
