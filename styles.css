@@ -15,6 +15,11 @@ html, body {
     text-align: center;
 }
 
+.game-title {
+    width: 100%;
+    display: block;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -44,6 +49,12 @@ html, body {
     font-size: 18px;
     font-weight: bold;
     color: #f4b731;
+    text-align: center;
+}
+
+.hint1 span {
+    color: #f4b731;
+    font-weight: bold;
 }
 
 .game-info {

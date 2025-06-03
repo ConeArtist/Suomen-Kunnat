@@ -169,4 +169,15 @@ function deselectAllProvinces() {
     document.querySelectorAll('#province-selection input[type="checkbox"]').forEach(cb => cb.checked = false);
 }
 
+function generateShareLink(score) {
+    const url = encodeURIComponent("https://sinunpelisivu.fi");
+    const title = encodeURIComponent(`Sain monta pistettä Suomen Kunnat -pelissä! Pystytkö parempaan?`);
+    const linkedinUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}&title=${title}`;
+    document.getElementById("linkedin-share").href = linkedinUrl;
+}
+
+// Esimerkiksi pelin päätyttyä:
+generateShareLink(score);
+
+
 
