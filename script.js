@@ -58,7 +58,7 @@ function nextQuestion() {
 
     const coatOfArmsImage = document.getElementById('vaakuna');
     const coatOfArmsName = currentFeature.properties.nimi.toLowerCase().replace(/ /g, '-').replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/å/g, 'a');
-    coatOfArmsImage.src = `/vaakunat/${coatOfArmsName}.gif`;
+    coatOfArmsImage.src = `vaakunat/${coatOfArmsName}.gif`;
 
     document.getElementById('question').textContent = `Missä on kunta: ${currentFeature.properties.nimi}?`;
     document.getElementById('result').textContent = '';
