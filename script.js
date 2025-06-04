@@ -45,6 +45,7 @@ function startGame() {
                 }
             }).addTo(map);
 
+            map.fitBounds(geojsonLayer.getBounds());
             nextQuestion();
         });
 }
