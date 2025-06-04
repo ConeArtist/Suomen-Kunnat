@@ -5,6 +5,7 @@ let currentFeature;
 let selectedProvinces = [];
 let attemptCount = 0;
 let score = 0;
+let maxScore = 0;
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('start-game').addEventListener('click', startGame);
@@ -31,6 +32,8 @@ function startGame() {
             allFeatures = data.features.filter(feature =>
                 selectedProvinces.includes(feature.properties.province)
             );
+            maxScore = allFeatures.length * 5;
+            updateScoreDisplay();
 
             geojsonLayer = L.geoJSON(allFeatures, {
                 style: {
@@ -49,7 +52,7 @@ function startGame() {
 function nextQuestion() {
     if (allFeatures.length === 0) {
         document.getElementById('question').textContent = 'Peli päättyi! Kaikki kunnat pelattu.';
-        document.getElementById('result').textContent = `Lopullinen pistemäärä: ${score}`;
+        document.getElementById('result').textContent = `Lopullinen pistemäärä: ${score} / ${maxScore}`;
         return;
     }
 
@@ -158,7 +161,7 @@ function updateScoreDisplay() {
         scoreDisplay.style.marginTop = '10px';
         document.querySelector('.sidebar').appendChild(scoreDisplay);
     }
-    scoreDisplay.textContent = `Pisteet: ${score}`;
+    scoreDisplay.textContent = `Pisteet: ${score} / ${maxScore}`;
 }
 
 function selectAllProvinces() {
