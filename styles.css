@@ -116,7 +116,7 @@ button:hover {
 }
 
 /* Vaakuna ja kysymys vierekkäin */
-.guestion-box {
+.question-box {
     display: flex;
     align-items: center;
     gap: 20px;
