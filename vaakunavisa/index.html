@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaakunavisa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vaakunavisa</h1>
+        <div class="game-container">
+            <div class="score-container">
+                <div class="score">Pisteet: <span id="score">0</span></div>
+                <div class="attempts">Yritykset: <span id="attempts">0</span></div>
+            </div>
+            <div class="coat-of-arms">
+                <img id="coatOfArms" src="" alt="Kunnan vaakuna">
+                <div id="correctMunicipality" class="hidden"></div>
+            </div>
+            <div class="guess-container">
+                <input type="text" id="guess" placeholder="Arvaa kunta...">
+                <button id="submitGuess">Arvaa</button>
+            </div>
+            <div id="feedback" class="feedback"></div>
+            <button id="newGame" class="hidden">Uusi peli</button>
+        </div>
+    </div>
+    <div id="start-modal" class="modal">
+        <div class="modal-content">
+            <h2>Tervetuloa Vaakunavisaan!</h2>
+            <p>Pelissä näet kunnon vaakunan ja sinun pitää arvata kunnon nimi.</p>
+            <p>Saat pisteen oikein arvaamisesta.</p>
+            <button id="startGame">Aloita peli</button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="vv-script.js"></script>
+</body>
+</html>
